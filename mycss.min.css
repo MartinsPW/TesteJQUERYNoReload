@@ -1,0 +1,33 @@
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center
+}
+
+html body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column
+}
+
+html main {
+  flex: 1
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga'
+}
